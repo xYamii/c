@@ -1,0 +1,43 @@
+30.1
+funkcja szyfruj(zn, k)
+k <- k mod 26
+kod_zn <- kod(zn)+k
+jeżeli kod_zn > 90
+kod_zn <- kod_zn -26
+wynik znak(kod_zn) 
+
+30.2
+zaszyfrowane - JPISWSHBHUL 
+jawne - KOMPUTER
+
+30.3
+dla i=1,2,… n wykonuj
+ J[i] <- deszyfruj(S[i], i)
+ 
+funkcja deszyfruj(zn, k)
+k←k mod 26
+kod_zn <- kod(zn) – k
+jeżeli kod_zn < 65
+kod_zn <- kod_zn +26
+wynik znak(kod_zn) 
+
+31.1
+ZEŁA1ADJTAEWNSEIT
+
+ZISSAETTD1PEAJRNEO
+
+31.2
+
+UDOMEWIKAEOĆMD
+DRJTOZEBES
+
+31.3
+
+n <- dlugosc(X)
+dla i=1,2,…,k wykonuj
+j<-i
+dopóki j <= n wykonuj
+ wypisz X[j]
+ j <- j+k
+
+31.4
